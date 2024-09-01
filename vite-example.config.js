@@ -14,7 +14,7 @@ export default defineConfig({
 		lib: {
 			entry: "src/bundler.js",
 			formats: ["iife"],
-			name: "Ollesvege",
+			name: "ollesvege",
 			fileName: "ollesvege",
 		},
 	},

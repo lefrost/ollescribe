@@ -2,3 +2,4 @@ dist
 node_modules
 src/lib
 src/bundler.js
+vite.config.js

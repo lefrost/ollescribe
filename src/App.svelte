@@ -1,7 +1,9 @@
-<h1>Svelte Micro Frontend Boilerplate</h1>
+<div class="heading">
+	ollescribe
+</div>
 
 <style>
-	h1 {
-		color: hsl(270deg 50% 40%);
+	.heading {
+		font-size: 15px;
 	}
 </style>

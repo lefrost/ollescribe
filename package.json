@@ -1,0 +1,16 @@
+{
+	"name": "svelte-micro-frontend-boilerplate",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"svelte": "^4.2.19"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.4.6",
+		"vite": "^4.5.3"
+	}
+}

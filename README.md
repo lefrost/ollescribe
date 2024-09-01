@@ -1,6 +1,6 @@
 #### ⚡️ ollescribe
 
-- [svelte](https://kit.svelte.dev/) boilerplate by lé for bundling an [ollesvege](https://github.com/lefrost/ollesvege) component into a single IIFE .js file usable in an [ollesvelke](https://github.com/lefrost/ollesvelke) frontend.
+- [svelte](https://kit.svelte.dev/) boilerplate by lé for bundling an [ollesvege](https://github.com/lefrost/ollesvege) component into a single IIFE .js file usable in an [ollesvelke](https://github.com/lefrost/ollesvelke) frontend (or any frontend project if placement is tweaked accordingly).
 - ie. convert a `/component/lib` directory into a `component.iife.js` file (+ `component.iife.js.map`) that can be used in a `<script />` import. usage steps below:
 - `npm i`, paste contents of component `/src/lib` folder into `/src/lib`, add `bundler.js` and `vite.config.js` based on `bundler-example.js` and `vite-example.config.js`, update template `ollesvege` variables in `bundler.js` and `vite.config.js`, and `npm run build`.
 - before building, you'll need to install modules used in your component as dev dependencies within ollescribe, ie. `npm i -D ...`.
